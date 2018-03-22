@@ -26,3 +26,7 @@ Route::get('/auth', 'pagesController@getAuth');
 Route::get('/messages', 'MessagesController@getMessages' );
 
 Route::post('/messages', 'MessagesController@getMessages');
+
+Route::get('/mention', function () {
+    return view('mention');
+});
