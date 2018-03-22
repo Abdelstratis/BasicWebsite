@@ -10,7 +10,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>Document</title>
+    <title>Abdel - Stratis</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
@@ -19,11 +19,13 @@
 <body>
 
 
-
+    <div class="co">
+    <a href="http://localhost/BasicWebsite/public/" class="btn btn-primary">Home</a>
+    </div>
 
     <form class="form-signin" action="/BasicWebsite/public/messages" method="get">
         <center>
-        <h1 class="h3 mb-3 font-weight-normal">Connexion</h1>
+        <h1 class="h3 mb-3 font-weight-normal"> <p class="ok">Abdel - Stratis </p><br><br> Connexion</h1>
         </center>
         <label for="inputPassword" class="sr-only">Password</label>
         <input type="password" id="inputPassword" name="mdp" class="form-control" placeholder="Password" required>
@@ -83,6 +85,22 @@
         border-top-left-radius: 0;
         border-top-right-radius: 0;
     }
+
+    .co{
+        position: absolute;
+        top : 25px;
+        left : 25px;
+    }
+    .ok{
+        font-family: "Century Gothic";
+        font-weight: bolder;
+        color: #062c33;
+    }
+
+
+
+
+
 </style>
 
 </body>
