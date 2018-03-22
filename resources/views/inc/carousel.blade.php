@@ -1,4 +1,4 @@
-
+<main role="main">
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -12,7 +12,7 @@
                 <div class="carousel-caption text-left">
                     <h1>Site de Football</h1>
                     <p class="lead">A découvrir toutes les nouveautés dans le monde de football.</p>
-                    <p><a class="btn btn-lg btn-primary" href="" role="button">Sign up today</a></p>
+                    <p><a class="btn btn-lg btn-primary" href="http://localhost/BasicWebsite/public/auth" role="button">Sign up today</a></p>
                 </div>
             </div>
         </div>
@@ -22,7 +22,7 @@
                 <div class="carousel-caption">
                     <h1 >Agenda des matcchs à venir !</h1>
                     <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                    <p><a class="btn btn-lg btn-primary" href="" role="button">Learn more</a></p>
+                    <p><a class="btn btn-lg btn-primary" href="http://localhost/BasicWebsite/public/album" role="button">Learn more</a></p>
                 </div>
             </div>
         </div>
@@ -46,6 +46,8 @@
         <span class="sr-only">Next</span>
     </a>
 </div>
+
+</main>
 
 
 
