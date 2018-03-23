@@ -30,11 +30,37 @@ class MessagesController extends Controller
 
 
 
-    public function getMessages(){
+//    public function getMessages(){
+//
+//        $messages = Message::all();
+//
+//        return view ('messages')->with('messages' , $messages);
+//    }
 
-        $messages = Message::all();
+    public function private(Request $request){
 
-        return view ('messages')->with('messages' , $messages);
+        $message = Message::all();
+
+        $mot = $request->input('mdp');
+
+        if( $mot == 'stratis' ){
+
+            return view ('messages')->with('messages' , $message);
+        }
+        else
+
+            return view('incorrect');
+
+
+
+
+
+
+
+
+
+
+
     }
 
 }
