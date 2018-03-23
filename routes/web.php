@@ -19,6 +19,8 @@ Route::get('/about', 'pagesController@getAbout');
 
 Route::get('/contact', 'pagesController@getContact');
 
+Route::post('/contact/submit', 'MessagesController@submit');
+
 Route::get('/album', 'pagesController@getAlbum');
 
 Route::get('/auth', 'pagesController@getAuth');
