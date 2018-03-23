@@ -18,7 +18,7 @@
 
             </li>
 
-            <li class="{{ Request::is('about') ? 'active' : '' }}">
+            <li class="{{ Request::is('album') ? 'active' : '' }}">
 
                 <a class="nav-link" href="http://localhost/BasicWebsite/public/album">Album<span class="sr-only">(current)</span></a>
 
