@@ -37,6 +37,6 @@ Auth::routes();
 
 Route::get('/private', 'HomeController@index')->name('home');
 
-Route::get('/private/private/private' , 'MessagesController@private') ;
+//Route::get('/private/private/private' , 'MessagesController@private') ;
 
 
