@@ -4,6 +4,7 @@
 
     <h1>Contact</h1>
 
+    {{ csrf_field()}}
 
     {!! Form::open(['url' => '/contact/submit']) !!}
 
