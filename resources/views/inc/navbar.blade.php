@@ -20,7 +20,7 @@
 
             <li class="{{ Request::is('album') ? 'active' : '' }}">
 
-                <a class="nav-link" href="http://localhost/BasicWebsite/public/album">Album<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="http://localhost/BasicWebsite/public/album">Article<span class="sr-only">(current)</span></a>
 
             </li>
 
@@ -48,7 +48,7 @@
 
             <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
 
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Recherche</button>
 
         </form>
 

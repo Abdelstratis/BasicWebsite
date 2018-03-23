@@ -65,6 +65,7 @@
 
     </div>
 
+
     <footer id="footer" class="text-center text-muted">
         <p> Copyright 2018 &copy; Abdel - Stratis | <a href="http://localhost/BasicWebsite/public/mention"/> Mentions Légales</a> </p>
     </footer>

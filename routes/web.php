@@ -25,10 +25,18 @@ Route::get('/album', 'pagesController@getAlbum');
 
 Route::get('/auth', 'pagesController@getAuth');
 
-Route::get('/messages', 'MessagesController@getMessages' );
+Route::get('/messages', 'MessagesController@private' );
 
-Route::post('/messages', 'MessagesController@getMessages');
+Route::post('/messages', 'MessagesController@private');
 
 Route::get('/mention', function () {
     return view('mention');
 });
+
+Auth::routes();
+
+Route::get('/private', 'HomeController@index')->name('home');
+
+Route::get('/private/private/private' , 'MessagesController@private') ;
+
+
